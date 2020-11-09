@@ -1,0 +1,20 @@
+Finding initial SS....
+WB:  (Fraction(395, 256), Fraction(245, 128))
+Exp: 66570	FR: 15.000000	 Capture Time: 0.410000
+ss:     194389	x:  0.0665 br:    4	
+Exp: 66570	FR: 5.140000	 Capture Time: 0.450000
+ss:     568061	x:  0.1945 br:    4	
+Exp: 194437	FR: 1.760000	 Capture Time: 0.700000
+ss:     999000	x:  0.5686 br:   20	
+Exp: 568812	FR: 1.000000	 Capture Time: 1.470000
+ss:     999000	x:  1.0000 br:   61	
+Exp: 998991	FR: 1.000000	 Capture Time: 2.330000
+ss:     999000	x:  1.0000 br:   95	
+Set up timelapser with: 
+	maxtime :	-1
+	maxshots:	-1
+	interval:	1800
+	Brightns:	128
+	Size  :	3280 x 2460
+Exp: 998991	FR: 1.000000	 Capture Time: 2.630000
+SS:     999000	X:    1.000	BR:   96	ISO:  100	Shots:     1

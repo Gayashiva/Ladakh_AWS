@@ -2,7 +2,7 @@
 
 1. Setup WIFI: copy wpa_supplicant to boot via sudo cp /home/surya/AWS/pi-0/Scripts/Setup/wpa_supplicant.conf /media/surya/boot
 2. Enable SSH: copy ssh empty file or touch ssh
-3. ssh-copy-id pi@raspberryi.local && ssh-add ~/.ssh/id_rsa_pi2
+3. ssh-copy-id pi@pi-0.local && ssh-add ~/.ssh/id_pi
 4. Use VNC to set locale and raspi-config
 5. sudo apt update && sudo apt install neovim
 6. Install syncthing: https://apt.syncthing.net/ sudo systemctl enable syncthing@pi.service

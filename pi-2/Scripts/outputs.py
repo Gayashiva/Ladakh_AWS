@@ -6,6 +6,10 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 import os
 
+f=open('/etc/hostname')
+hostname = f.read().strip().replace(' ','')
+f.close()
+
 path = "/home/pi/AWS/"
 # path = "/home/surya/AWS"
 file_path = os.path.join(path, hostname + "_outputs.pdf")

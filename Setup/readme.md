@@ -14,10 +14,10 @@
 1. sudo vim /etc/hostname
 2. sudo vim /etc/hosts
 3. sudo rm -rfv ~/.config/syncthing/
-4. sudo cp /home/pi/AWS/Scripts/Setup/config.txt /boot
-5. sudo cp /home/pi/AWS/Scripts/Setup/rc.local /etc
-6. sudo cp /home/pi/AWS/Scripts/Setup/crontab /etc
+4. sudo cp /home/pi/Setup/config.txt /boot
+5. sudo cp /home/pi/Setup/rc.local /etc
+6. sudo cp /home/pi/Setup/crontab /etc
 7. sudo i2cdetect -y 1
 8. sudo apt-get -y remove fake-hwclock && sudo update-rc.d -f fake-hwclock remove && sudo systemctl disable fake-hwclock
-9. sudo cp /home/pi/AWS/Scripts/Setup/hwclock-set /lib/udev
+9. sudo cp /home/pi/Setup/hwclock-set /lib/udev
 10. sudo hwclock -D -r

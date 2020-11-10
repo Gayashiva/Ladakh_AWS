@@ -7,10 +7,6 @@ import os
 import csv
 import serial
 
-f = open("/etc/hostname")
-hostname = f.read().strip().replace(" ", "")
-f.close()
-
 path = "/home/pi/AWS/"
 file_path = os.path.join(path, "Kit.csv")
 

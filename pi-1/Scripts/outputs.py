@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 import os
 
-path = "/home/pi/AWS/" + hostname
-# path = "/home/surya/AWS/pi-2"
+path = "/home/pi/AWS/"
+# path = "/home/surya/AWS"
 file_path = os.path.join(path, hostname + "_outputs.pdf")
 
 df_adc = pd.read_csv(path + "/adc.csv", sep=",", header=0, parse_dates=["Datetime"])

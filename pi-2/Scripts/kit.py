@@ -8,7 +8,7 @@ import csv
 import serial
 
 path = "/home/pi/AWS/"
-file_path = os.path.join(path, "Kit.csv")
+file_path = os.path.join(path, "kit.csv")
 
 x = []
 ser = serial.Serial(

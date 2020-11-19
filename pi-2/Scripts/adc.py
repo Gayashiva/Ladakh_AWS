@@ -16,7 +16,7 @@ hostname = f.read().strip().replace(" ", "")
 f.close()
 
 path = "/home/pi/AWS/"
-file_path = os.path.join(path, "adc6.csv")
+file_path = os.path.join(path, "adc.csv")
 
 file = open(file_path, "a")
 if os.stat(file_path).st_size == 0:
@@ -48,19 +48,19 @@ while counter < samples:
     # adc0 = (adc0 - 1.73828125) * 400*10 #hPa
     # adc0 +=344.21 - 273.4375
     # Water_Pressure += adc0
-    # time.sleep(0.2)
+    # sleep(0.2)
 
     # adc1 = ads1115.readVoltage(1)
     # adc1 = float((adc1['r']/120)-4)
     # adc1=float(adc1*312.5) #mm
     # adc1 += (285-257.812)
     # Water_level += adc1
-    # time.sleep(0.2)
+    # sleep(0.2)
 
-    # adc2=ads1115.readVoltage(2)
-    # ad2=float(adc2['r']/1024)
-    # IRTemp = IRTemp + float(ad2/3*450-70)
-    # time.sleep(0.2)
+    adc2 = ads1115.readVoltage(2)
+    ad2 = float(adc2["r"] / 1024)
+    IRTemp = IRTemp + float(ad2 / 3 * 450 - 70)
+    sleep(0.2)
 
     adc3 = ads1115.readVoltage(3)
     uvLevel += float(adc3["r"])

@@ -9,7 +9,10 @@ import os
 from windrose import WindroseAxes
 
 DIRNAME = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-path = os.path.join(DIRNAME, "compare/data_pi/")
+
+path = os.path.join(DIRNAME, "pi-2/")
+path_AWS = os.path.join(DIRNAME, "Gangles_AWS/")
+
 df_SHT = pd.read_csv(path + "Air_Temp.csv", sep=",", header=0, parse_dates=["Datetime"])
 df_SHT = df_SHT.set_index("Datetime").resample("15T").mean().reset_index()
 
@@ -35,7 +38,7 @@ df_kit = pd.read_csv(path + "Kit.csv", sep=",", header=0, parse_dates=["Datetime
 df_kit = df_kit.set_index("Datetime").resample("15T").mean().reset_index()
 mask = (df_kit["Datetime"] >= start) & (df_kit["Datetime"] <= end)
 df_kit = df_kit[mask]
-path_AWS = os.path.join(DIRNAME, "HIAL_AWS/")
+
 df_AWS = pd.read_csv(
     path_AWS + "HIAL_Table15min.dat", skiprows=1, header=0, parse_dates=["TIMESTAMP"]
 )

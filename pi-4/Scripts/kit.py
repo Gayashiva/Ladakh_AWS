@@ -8,7 +8,7 @@ import csv
 import serial
 
 path = "/home/pi/AWS/"
-file_path = os.path.join(path, "Kit.csv")
+file_path = os.path.join(path, "kit.csv")
 
 x = []
 ser = serial.Serial(
@@ -75,7 +75,7 @@ while counter < samples:
     pressure += barpressure()
 
     counter += 1
-    time.sleep(2)
+    time.sleep(0.5)
 
 win_dir /= samples
 win_avg /= samples

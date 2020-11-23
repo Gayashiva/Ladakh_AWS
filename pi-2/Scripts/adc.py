@@ -1,19 +1,13 @@
 #!/usr/bin/python3
 import sys
 
-sys.path.append("../")
 from time import sleep
 from datetime import datetime
 import os
-
 from modules.DFRobot_ADS1115 import ADS1115
 
 ADS1115_REG_CONFIG_PGA_2_048V = 0x04  # 2.048V range = Gain 2 (default)
 ads1115 = ADS1115()
-
-f = open("/etc/hostname")
-hostname = f.read().strip().replace(" ", "")
-f.close()
 
 path = "/home/pi/AWS/"
 file_path = os.path.join(path, "adc.csv")
@@ -43,12 +37,12 @@ while counter < samples:
     ads1115.setGain(ADS1115_REG_CONFIG_PGA_2_048V)
 
     # Get the Digital Value of Analog of selected channel
-    # adc0 = ads1115.readVoltage(0)
-    # adc0=float(adc0['r']*5/1024)
-    # adc0 = (adc0 - 1.73828125) * 400*10 #hPa
+    adc0 = ads1115.readVoltage(0)
+    adc0=float(adc0['r']*5/1024)
+    adc0 = (adc0 - 1.73828125) * 400*10 #hPa
     # adc0 +=344.21 - 273.4375
-    # Water_Pressure += adc0
-    # sleep(0.2)
+    Water_Pressure += adc0
+    sleep(0.2)
 
     # adc1 = ads1115.readVoltage(1)
     # adc1 = float((adc1['r']/120)-4)
@@ -57,9 +51,9 @@ while counter < samples:
     # Water_level += adc1
     # sleep(0.2)
 
-    adc2 = ads1115.readVoltage(2)
-    ad2 = float(adc2["r"] / 1024)
-    IRTemp = IRTemp + float(ad2 / 3 * 450 - 70)
+    adc2=ads1115.readVoltage(2)
+    adc2=float(adc2['r']/1024)
+    IRTemp = IRTemp + float(adc2/3*450-70)
     sleep(0.2)
 
     adc3 = ads1115.readVoltage(3)
@@ -80,14 +74,14 @@ uvLevel /= samples
 uvIntensity /= samples
 print("ADC", uvIntensity, IRTemp, Water_Pressure, Water_level)
 file.write(
-    str(dt.strftime(dt.strftime("%Y-%m-%d %H:%M")))
+    str(dt.strftime("%Y-%m-%d %H:%M"))
     + ","
     + str(round(uvIntensity, 3))
     + ","
     + str(round(IRTemp, 3))
     + ","
     + str(round(Water_Pressure, 3))
-    + ","
+     ","
     + str(round(Water_level, 3))
     + "\n"
 )

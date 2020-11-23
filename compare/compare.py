@@ -10,8 +10,9 @@ from windrose import WindroseAxes
 
 DIRNAME = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
+site = "Gangles"
 path = os.path.join(DIRNAME, "pi-2/")
-path_AWS = os.path.join(DIRNAME, "Gangles_AWS/")
+path_AWS = os.path.join(DIRNAME, site + "_AWS/")
 
 df_SHT = pd.read_csv(path + "Air_Temp.csv", sep=",", header=0, parse_dates=["Datetime"])
 df_SHT = df_SHT.set_index("Datetime").resample("15T").mean().reset_index()
@@ -40,7 +41,7 @@ mask = (df_kit["Datetime"] >= start) & (df_kit["Datetime"] <= end)
 df_kit = df_kit[mask]
 
 df_AWS = pd.read_csv(
-    path_AWS + "HIAL_Table15min.dat", skiprows=1, header=0, parse_dates=["TIMESTAMP"]
+    path_AWS + site + "_Table15min.dat", skiprows=1, header=0, parse_dates=["TIMESTAMP"]
 )
 df_AWS = df_AWS[2:]
 df_AWS["TIMESTAMP"] = pd.to_datetime(df_AWS["TIMESTAMP"])
@@ -50,7 +51,7 @@ df_AWS = df_AWS[mask]
 df_AWS = df_AWS[["TIMESTAMP", "AirTC_Avg", "RH", "WS", "WindDir"]]
 
 df_AWS2 = pd.read_csv(
-    path_AWS + "HIAL_Table60Min.dat", skiprows=1, header=0, parse_dates=["TIMESTAMP"]
+    path_AWS + site + "_Table60Min.dat", skiprows=1, header=0, parse_dates=["TIMESTAMP"]
 )
 df_AWS2 = df_AWS2[2:]
 df_AWS2["TIMESTAMP"] = pd.to_datetime(df_AWS2["TIMESTAMP"])

@@ -35,7 +35,7 @@ while counter < samples:
     # Read temperature.
     temp += sensor.temperature
     counter += 1
-    sleep(1)
+    sleep(0.2)
 
 temp = temp / samples
 dt = datetime.now()

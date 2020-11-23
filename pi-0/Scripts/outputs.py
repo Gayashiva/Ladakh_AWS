@@ -6,31 +6,31 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 import os
 
-f=open('/etc/hostname')
-hostname = f.read().strip().replace(' ','')
+f = open("/etc/hostname")
+hostname = f.read().strip().replace(" ", "")
 f.close()
 
 path = "/home/pi/AWS/"
 # path = "/home/surya/AWS"
 file_path = os.path.join(path, hostname + "_outputs.pdf")
 
-df_adc = pd.read_csv(path + "/adc.csv", sep=",", header=0, parse_dates=["Datetime"])
+df_adc = pd.read_csv(path + "adc.csv", sep=",", header=0, parse_dates=["Datetime"])
 
 df_PT100 = pd.read_csv(
-    path + "/ice_temp.csv", sep=",", header=0, parse_dates=["Datetime"]
+    path + "ice_temp.csv", sep=",", header=0, parse_dates=["Datetime"]
 )
 
-df_SHT = pd.read_csv(
-    path + "/air_temp.csv", sep=",", header=0, parse_dates=["Datetime"]
-)
+# df_SHT = pd.read_csv(
+#     path + "air_temp.csv", sep=",", header=0, parse_dates=["Datetime"]
+# )
 
 df_DSB = pd.read_csv(
-    path + "/water_temp.csv", sep=",", header=0, parse_dates=["Datetime"]
+    path + "water_temp.csv", sep=",", header=0, parse_dates=["Datetime"]
 )
 
-df_kit = pd.read_csv(path + "/kit.csv", sep=",", header=0, parse_dates=["Datetime"])
+df_kit = pd.read_csv(path + "kit.csv", sep=",", header=0, parse_dates=["Datetime"])
 
-print(df_SHT.Datetime.iloc[-1])
+print(df_kit.Datetime.iloc[-1])
 
 pp = PdfPages(file_path)
 

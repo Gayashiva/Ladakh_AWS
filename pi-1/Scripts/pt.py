@@ -12,12 +12,8 @@ import os
 import csv
 import adafruit_max31865
 
-f = open("/etc/hostname")
-hostname = f.read().strip().replace(" ", "")
-f.close()
-
 path = "/home/pi/AWS/"
-file_path = os.path.join(path, "Ice_Temp.csv")
+file_path = os.path.join(path, "ice_temp.csv")
 
 # Initialize SPI bus and sensor.
 spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
@@ -39,7 +35,7 @@ while counter < samples:
     # Read temperature.
     temp += sensor.temperature
     counter += 1
-    sleep(5)
+    sleep(0.2)
 
 temp = temp / samples
 dt = datetime.now()

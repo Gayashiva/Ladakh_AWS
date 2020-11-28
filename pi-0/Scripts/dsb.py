@@ -39,10 +39,10 @@ Db /= samples
 Db1 /= samples
 
 # Calibrate
-# Db = Db - 5.47
+# Db = Db - 0.12
 
 dt = datetime.now()
-print("DSB", Db)
+# print("Water temperature", Db)
 file.write(
     str(dt.strftime(dt.strftime("%Y-%m-%d %H:%M"))) + "," + str(round(Db, 2)) + "\n"
 )

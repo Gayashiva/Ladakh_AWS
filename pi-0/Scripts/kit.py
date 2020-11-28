@@ -57,12 +57,11 @@ def barpressure():  # //Barometric Pressure
     t = float(x[28:33])
     return t / 10.00
 
-
-file = open(file_path, "a")
 if os.stat(file_path).st_size == 0:
     file.write(
         "Datetime,Wind_Direction,Wind_SpeedAvg,Wind_SpeedMax,Temp,Humidity,Pressure\n"
     )
+file = open(file_path, "a")
 x = ser.readline()
 print("Kit: ", x)
 
@@ -91,7 +90,7 @@ print("temperature: ", temp, " centigrade")
 print("humidity: ", hum, "%")
 print("pressure: ", pressure, "hpa")
 file.write(
-    str(dt.strftime(dt.strftime("%y-%m-%d %h:%m")))
+    str(dt.strftime(dt.strftime("%y-%m-%d %H:%M")))
     + ","
     + str(win_dir)
     + ","

@@ -64,7 +64,7 @@ if os.stat(file_path).st_size == 0:
         "Datetime,Wind_Direction,Wind_SpeedAvg,Wind_SpeedMax,Temp,Humidity,Pressure\n"
     )
 x = ser.readline()
-# print("Kit: ", x)
+print("Kit: ", x)
 
 while counter < samples:
     win_dir += win_direction()

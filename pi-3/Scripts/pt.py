@@ -38,8 +38,13 @@ while counter < samples:
     sleep(0.2)
 
 temp = temp / samples
+
 dt = datetime.now()
-print("Temperature in Celsius is : %.2f C" % temp)
+dt = dt.strftime("%Y-%m-%d %H:%M")
+if temp > 50:
+    print(dt, "Ice sensor error")
+    print("Temperature in Celsius is : %.2f C" % temp)
+
 file.write(
     str(dt.strftime(dt.strftime("%Y-%m-%d %H:%M"))) + "," + str(round(temp, 3)) + "\n"
 )

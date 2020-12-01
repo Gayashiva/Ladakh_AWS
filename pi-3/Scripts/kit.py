@@ -64,7 +64,7 @@ if os.stat(file_path).st_size == 0:
         "Datetime,Wind_Direction,Wind_SpeedAvg,Wind_SpeedMax,Temp,Humidity,Pressure\n"
     )
 x = ser.readline()
-print("Kit: ", x)
+# print("Kit: ", x)
 
 while counter < samples:
     win_dir += win_direction()
@@ -84,14 +84,15 @@ temp /= samples
 hum /= samples
 pressure /= samples
 dt = datetime.now()
-print("wind direction: ", win_dir, " degrees")
-print("wind speed avg: ", win_avg, " m/s")
-print("wind speed: ", win_max, " m/s")
-print("temperature: ", temp, " centigrade")
-print("humidity: ", hum, "%")
-print("pressure: ", pressure, "hpa")
+dt = dt.strftime("%Y-%m-%d %H:%M")
+# print("wind direction: ", win_dir, " degrees")
+# print("wind speed avg: ", win_avg, " m/s")
+# print("wind speed: ", win_max, " m/s")
+# print("temperature: ", temp, " centigrade")
+# print("humidity: ", hum, "%")
+# print("pressure: ", pressure, "hpa")
 file.write(
-    str(dt.strftime(dt.strftime("%y-%m-%d %h:%m")))
+    str(dt)
     + ","
     + str(win_dir)
     + ","

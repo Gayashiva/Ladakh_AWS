@@ -224,8 +224,9 @@ class timelapse(object):
     capstart = time.time()
     self.camera.capture(stream, format='jpeg')
     capend = time.time()
-    print ('Exp: %d\tFR: %f\t Capture Time: %f' 
-           % (self.camera.exposure_speed, 
+    when = subprocess.check_output(['date', '+%y%m%d_%T']).strip()
+    print ('When: %s\tExp: %d\tFR: %f\t Capture Time: %f' 
+           % (when, self.camera.exposure_speed, 
               round(float(self.camera.framerate),2), 
               round(capend-capstart,2)))
     # "Rewind" the stream to the beginning so we can read its content

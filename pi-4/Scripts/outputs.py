@@ -114,26 +114,26 @@ fig.autofmt_xdate()
 pp.savefig(bbox_inches="tight")
 plt.clf()
 
-ax1 = fig.add_subplot(111)
-x = df_SHT.Datetime
-y1 = df_SHT.SHT_Temp
-ax1.plot(x, y1, "k-", linewidth=0.5)
-ax1.set_ylabel("Temperature [$\\degree C$]")
-ax1.grid()
+#ax1 = fig.add_subplot(111)
+#x = df_SHT.Datetime
+#y1 = df_SHT.SHT_Temp
+#ax1.plot(x, y1, "k-", linewidth=0.5)
+#ax1.set_ylabel("Temperature [$\\degree C$]")
+#ax1.grid()
 
-ax1t = ax1.twinx()
-ax1t.plot(x, df_SHT.SHT_Humidity, "b-", linewidth=0.5)
-ax1t.set_ylabel("Humidity", color="b")
-for tl in ax1t.get_yticklabels():
-    tl.set_color("b")
+#ax1t = ax1.twinx()
+#ax1t.plot(x, df_SHT.SHT_Humidity, "b-", linewidth=0.5)
+#ax1t.set_ylabel("Humidity", color="b")
+#for tl in ax1t.get_yticklabels():
+#    tl.set_color("b")
 
-ax1.xaxis.set_major_locator(mdates.DayLocator())
-ax1.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
-ax1.xaxis.set_minor_locator(mdates.HourLocator())
+#ax1.xaxis.set_major_locator(mdates.DayLocator())
+#ax1.xaxis.set_major_formatter(mdates.DateFormatter("%b %d"))
+#ax1.xaxis.set_minor_locator(mdates.HourLocator())
 
-fig.autofmt_xdate()
-pp.savefig(bbox_inches="tight")
-plt.clf()
+#fig.autofmt_xdate()
+#pp.savefig(bbox_inches="tight")
+#plt.clf()
 
 ax1 = fig.add_subplot(111)
 x = df_DSB.Datetime

@@ -12,7 +12,7 @@ import os
 import csv
 import adafruit_max31865
 
-path = "/home/pi/AWS/"
+path = "/home/pi/AWS/Data/"
 file_path = os.path.join(path, "ice_temp.csv")
 
 # Initialize SPI bus and sensor.

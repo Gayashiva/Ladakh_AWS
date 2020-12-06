@@ -9,7 +9,7 @@ from modules.DFRobot_ADS1115 import ADS1115
 ADS1115_REG_CONFIG_PGA_2_048V = 0x04  # 2.048V range = Gain 2 (default)
 ads1115 = ADS1115()
 
-path = "/home/pi/AWS/"
+path = "/home/pi/AWS/Data/"
 file_path = os.path.join(path, "adc.csv")
 
 file = open(file_path, "a")

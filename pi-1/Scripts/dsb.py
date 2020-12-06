@@ -10,7 +10,7 @@ f = open("/etc/hostname")
 hostname = f.read().strip().replace(" ", "")
 f.close()
 
-path = "/home/pi/AWS/"
+path = "/home/pi/AWS/Data/"
 file_path = os.path.join(path, "water_temp.csv")
 
 file = open(file_path, "a")

@@ -29,5 +29,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 #*/5  *    * * *   root    /home/pi/AWS/Scripts/kit.py >> /home/pi/AWS/Logs/sensors.log 2>&1
 #*/30  *    * * *   root    /home/pi/AWS/Scripts/pt.py >> /home/pi/AWS/Logs/sensors.log 2>&1
 #*/5  *    * * *   root    /home/pi/AWS/Scripts/sht.py >> /home/pi/AWS/Logs/sensors.log 2>&1
-#0  12    * * *   root    /home/pi/AWS/Scripts/outputs.py >> /home/pi/AWS/Logs/sensors.log 2>&1
+#0  12    * * *   root    /home/pi/AWS/Scripts/outputs.py >> /home/pi/AWS/Logs/outputs.log 2>&1
+#0  12    * * *   root    /home/pi/AWS/Scripts/compile.py >> /home/pi/AWS/Logs/outputs.log 2>&1
 #

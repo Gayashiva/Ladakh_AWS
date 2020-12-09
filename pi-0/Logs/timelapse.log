@@ -1,515 +1,279 @@
 Finding initial SS....
-WB:  (Fraction(395, 256), Fraction(245, 128))
-Exp: 66570	FR: 15.000000	 Capture Time: 0.470000
-ss:     122373	x:  0.0665 br:   74	
-Exp: 66570	FR: 8.170000	 Capture Time: 0.410000
-ss:     225292	x:  0.1224 br:   74	
-Exp: 122337	FR: 4.440000	 Capture Time: 0.600000
-ss:     316987	x:  0.2254 br:  101	
-Exp: 225251	FR: 3.150000	 Capture Time: 0.810000
-ss:     295201	x:  0.3172 br:  132	
-Exp: 295176	FR: 3.390000	 Capture Time: 0.950000
-ss:     204134	x:  0.2954 br:  147	
-Exp: 204059	FR: 4.900000	 Capture Time: 0.760000
-ss:     208533	x:  0.2043 br:  126	
+WB:  (Fraction(485, 256), Fraction(397, 256))
+When: 201207_14:57:17	Exp: 369	FR: 15.000000	 Capture Time: 0.370000
+ss:        111	x:  0.0003 br:  189	
+When: 201207_14:57:18	Exp: 104	FR: 15.000000	 Capture Time: 0.300000
+ss:        115	x:  0.0000 br:  103	
+When: 201207_14:57:18	Exp: 104	FR: 15.000000	 Capture Time: 0.350000
+ss:        120	x:  0.0000 br:  103	
+When: 201207_14:57:19	Exp: 104	FR: 15.000000	 Capture Time: 0.360000
+ss:        127	x:  0.0000 br:  103	
+When: 201207_14:57:19	Exp: 123	FR: 15.000000	 Capture Time: 0.360000
+ss:        132	x:  0.0000 br:  114	
+When: 201207_14:57:20	Exp: 123	FR: 15.000000	 Capture Time: 0.360000
+ss:        138	x:  0.0000 br:  114	
+When: 201207_14:57:21	Exp: 123	FR: 15.000000	 Capture Time: 0.360000
+ss:        146	x:  0.0000 br:  114	
+When: 201207_14:57:21	Exp: 142	FR: 15.000000	 Capture Time: 0.330000
+ss:        148	x:  0.0000 br:  124	
+Set up timelapser with: 
+	maxtime :	-1
+	maxshots:	-1
+	interval:	5
+	Brightns:	128
+	Size  :	3280 x 2460
+When: 201207_14:57:22	Exp: 142	FR: 15.000000	 Capture Time: 0.680000
+SS:        148	X:    0.000	BR:  125	ISO:  100	Shots:     1
+When: 201207_14:57:27	Exp: 142	FR: 15.000000	 Capture Time: 0.620000
+SS:        148	X:    0.000	BR:  126	ISO:  100	Shots:     2
+When: 201207_14:57:32	Exp: 142	FR: 15.000000	 Capture Time: 0.590000
+SS:        148	X:    0.000	BR:  126	ISO:  100	Shots:     3
+When: 201207_14:57:37	Exp: 142	FR: 15.000000	 Capture Time: 0.620000
+SS:        148	X:    0.000	BR:  127	ISO:  100	Shots:     4
+When: 201207_14:57:42	Exp: 142	FR: 15.000000	 Capture Time: 0.610000
+SS:        148	X:    0.000	BR:  127	ISO:  100	Shots:     5
+When: 201207_14:57:47	Exp: 142	FR: 15.000000	 Capture Time: 0.590000
+SS:        148	X:    0.000	BR:  127	ISO:  100	Shots:     6
+When: 201207_14:57:52	Exp: 142	FR: 15.000000	 Capture Time: 0.590000
+SS:        147	X:    0.000	BR:  128	ISO:  100	Shots:     7
+When: 201207_14:57:57	Exp: 142	FR: 15.000000	 Capture Time: 0.580000
+SS:        146	X:    0.000	BR:  128	ISO:  100	Shots:     8
+When: 201207_14:58:02	Exp: 142	FR: 15.000000	 Capture Time: 0.580000
+SS:        145	X:    0.000	BR:  128	ISO:  100	Shots:     9
+When: 201207_14:58:07	Exp: 142	FR: 15.000000	 Capture Time: 0.610000
+SS:        144	X:    0.000	BR:  129	ISO:  100	Shots:    10
+When: 201207_14:58:12	Exp: 142	FR: 15.000000	 Capture Time: 0.640000
+SS:        143	X:    0.000	BR:  129	ISO:  100	Shots:    11
+When: 201207_14:58:17	Exp: 142	FR: 15.000000	 Capture Time: 0.580000
+SS:        142	X:    0.000	BR:  129	ISO:  100	Shots:    12
+When: 201207_14:58:22	Exp: 142	FR: 15.000000	 Capture Time: 0.590000
+SS:        141	X:    0.000	BR:  130	ISO:  100	Shots:    13
+When: 201207_14:58:27	Exp: 123	FR: 15.000000	 Capture Time: 0.590000
+SS:        141	X:    0.000	BR:  121	ISO:  100	Shots:    14
+When: 201207_14:58:32	Exp: 123	FR: 15.000000	 Capture Time: 0.590000
+SS:        141	X:    0.000	BR:  121	ISO:  100	Shots:    15
+When: 201207_14:58:37	Exp: 123	FR: 15.000000	 Capture Time: 0.590000
+SS:        141	X:    0.000	BR:  121	ISO:  100	Shots:    16
+When: 201207_14:58:42	Exp: 123	FR: 15.000000	 Capture Time: 0.590000
+SS:        141	X:    0.000	BR:  122	ISO:  100	Shots:    17
+When: 201207_14:58:47	Exp: 123	FR: 15.000000	 Capture Time: 0.580000
+SS:        141	X:    0.000	BR:  122	ISO:  100	Shots:    18
+When: 201207_14:58:52	Exp: 123	FR: 15.000000	 Capture Time: 0.590000
+SS:        141	X:    0.000	BR:  122	ISO:  100	Shots:    19
+When: 201207_14:58:57	Exp: 123	FR: 15.000000	 Capture Time: 0.590000
+SS:        141	X:    0.000	BR:  123	ISO:  100	Shots:    20
+When: 201207_14:59:02	Exp: 123	FR: 15.000000	 Capture Time: 0.590000
+SS:        141	X:    0.000	BR:  123	ISO:  100	Shots:    21
+When: 201207_14:59:07	Exp: 123	FR: 15.000000	 Capture Time: 0.680000
+SS:        141	X:    0.000	BR:  123	ISO:  100	Shots:    22
+When: 201207_14:59:12	Exp: 123	FR: 15.000000	 Capture Time: 0.590000
+SS:        141	X:    0.000	BR:  124	ISO:  100	Shots:    23
+When: 201207_14:59:17	Exp: 123	FR: 15.000000	 Capture Time: 0.630000
+SS:        141	X:    0.000	BR:  124	ISO:  100	Shots:    24
+When: 201207_14:59:22	Exp: 123	FR: 15.000000	 Capture Time: 0.580000
+SS:        147	X:    0.000	BR:   29	ISO:  100	Shots:    24
+When: 201207_14:59:27	Exp: 142	FR: 15.000000	 Capture Time: 0.630000
+SS:        146	X:    0.000	BR:  128	ISO:  100	Shots:    25
+When: 201207_14:59:32	Exp: 142	FR: 15.000000	 Capture Time: 0.590000
+SS:        149	X:    0.000	BR:   76	ISO:  100	Shots:    26
+When: 201207_14:59:37	Exp: 142	FR: 15.000000	 Capture Time: 0.630000
+SS:        151	X:    0.000	BR:   89	ISO:  100	Shots:    27
+When: 201207_14:59:42	Exp: 142	FR: 15.000000	 Capture Time: 0.590000
+SS:        157	X:    0.000	BR:   47	ISO:  100	Shots:    27
+When: 201207_14:59:47	Exp: 142	FR: 15.000000	 Capture Time: 0.580000
+SS:        163	X:    0.000	BR:   57	ISO:  100	Shots:    27
+When: 201207_14:59:52	Exp: 161	FR: 15.000000	 Capture Time: 0.600000
+SS:        171	X:    0.000	BR:   42	ISO:  100	Shots:    27
+When: 201207_14:59:57	Exp: 161	FR: 15.000000	 Capture Time: 0.600000
+SS:        178	X:    0.000	BR:   57	ISO:  100	Shots:    27
+When: 201207_15:00:02	Exp: 161	FR: 15.000000	 Capture Time: 0.630000
+SS:        186	X:    0.000	BR:   55	ISO:  100	Shots:    27
+When: 201207_15:00:07	Exp: 180	FR: 15.000000	 Capture Time: 0.580000
+SS:        194	X:    0.000	BR:   63	ISO:  100	Shots:    28
+When: 201207_15:00:12	Exp: 180	FR: 15.000000	 Capture Time: 0.600000
+SS:        203	X:    0.000	BR:   63	ISO:  100	Shots:    29
+When: 201207_15:00:17	Exp: 198	FR: 15.000000	 Capture Time: 0.600000
+SS:        212	X:    0.000	BR:   68	ISO:  100	Shots:    30
+When: 201207_15:00:22	Exp: 198	FR: 15.000000	 Capture Time: 0.630000
+SS:        222	X:    0.000	BR:   68	ISO:  100	Shots:    31
+When: 201207_15:00:27	Exp: 217	FR: 15.000000	 Capture Time: 0.600000
+SS:        232	X:    0.000	BR:   73	ISO:  100	Shots:    32
+When: 201207_15:00:32	Exp: 217	FR: 15.000000	 Capture Time: 0.600000
+SS:        243	X:    0.000	BR:   73	ISO:  100	Shots:    33
+When: 201207_15:00:37	Exp: 236	FR: 15.000000	 Capture Time: 0.590000
+SS:        254	X:    0.000	BR:   77	ISO:  100	Shots:    34
+When: 201207_15:00:42	Exp: 236	FR: 15.000000	 Capture Time: 0.620000
+SS:        266	X:    0.000	BR:   78	ISO:  100	Shots:    35
+When: 201207_15:00:47	Exp: 255	FR: 15.000000	 Capture Time: 0.640000
+SS:        277	X:    0.000	BR:   82	ISO:  100	Shots:    36
+When: 201207_15:00:52	Exp: 274	FR: 15.000000	 Capture Time: 0.640000
+SS:        288	X:    0.000	BR:   86	ISO:  100	Shots:    37
+When: 201207_15:00:57	Exp: 274	FR: 15.000000	 Capture Time: 0.600000
+SS:        299	X:    0.000	BR:   87	ISO:  100	Shots:    38
+When: 201207_15:01:02	Exp: 293	FR: 15.000000	 Capture Time: 0.640000
+SS:        310	X:    0.000	BR:   91	ISO:  100	Shots:    39
+When: 201207_15:01:07	Exp: 293	FR: 15.000000	 Capture Time: 0.650000
+SS:        321	X:    0.000	BR:   91	ISO:  100	Shots:    40
+When: 201207_15:01:12	Exp: 312	FR: 15.000000	 Capture Time: 0.640000
+SS:        332	X:    0.000	BR:   94	ISO:  100	Shots:    41
+When: 201207_15:01:17	Exp: 331	FR: 15.000000	 Capture Time: 0.650000
+SS:        342	X:    0.000	BR:   98	ISO:  100	Shots:    42
+When: 201207_15:01:22	Exp: 331	FR: 15.000000	 Capture Time: 0.660000
+SS:        353	X:    0.000	BR:   98	ISO:  100	Shots:    43
+When: 201207_15:01:27	Exp: 350	FR: 15.000000	 Capture Time: 0.650000
+SS:        363	X:    0.000	BR:  101	ISO:  100	Shots:    44
+When: 201207_15:01:32	Exp: 350	FR: 15.000000	 Capture Time: 0.630000
+SS:        373	X:    0.000	BR:  101	ISO:  100	Shots:    45
+When: 201207_15:01:37	Exp: 369	FR: 15.000000	 Capture Time: 0.660000
+SS:        382	X:    0.000	BR:  105	ISO:  100	Shots:    46
+When: 201207_15:01:42	Exp: 369	FR: 15.000000	 Capture Time: 0.640000
+SS:        392	X:    0.000	BR:  104	ISO:  100	Shots:    47
+When: 201207_15:01:47	Exp: 387	FR: 15.000000	 Capture Time: 0.620000
+SS:        401	X:    0.000	BR:  107	ISO:  100	Shots:    48
+When: 201207_15:01:52	Exp: 387	FR: 15.000000	 Capture Time: 0.640000
+SS:        410	X:    0.000	BR:  107	ISO:  100	Shots:    49
+When: 201207_15:01:57	Exp: 406	FR: 15.000000	 Capture Time: 0.620000
+SS:        418	X:    0.000	BR:  110	ISO:  100	Shots:    50
+When: 201207_15:02:02	Exp: 406	FR: 15.000000	 Capture Time: 0.670000
+SS:        426	X:    0.000	BR:  110	ISO:  100	Shots:    51
+When: 201207_15:02:07	Exp: 425	FR: 15.000000	 Capture Time: 0.630000
+SS:        433	X:    0.000	BR:  113	ISO:  100	Shots:    52
+When: 201207_15:02:12	Exp: 425	FR: 15.000000	 Capture Time: 0.640000
+SS:        440	X:    0.000	BR:  112	ISO:  100	Shots:    53
+When: 201207_15:02:17	Exp: 425	FR: 15.000000	 Capture Time: 0.630000
+SS:        447	X:    0.000	BR:  114	ISO:  100	Shots:    54
+When: 201207_15:02:22	Exp: 444	FR: 15.000000	 Capture Time: 0.670000
+SS:        453	X:    0.000	BR:  116	ISO:  100	Shots:    55
+When: 201207_15:02:27	Exp: 444	FR: 15.000000	 Capture Time: 0.630000
+SS:        459	X:    0.000	BR:  116	ISO:  100	Shots:    56
+When: 201207_15:02:32	Exp: 444	FR: 15.000000	 Capture Time: 0.670000
+SS:        465	X:    0.000	BR:  116	ISO:  100	Shots:    57
+When: 201207_15:02:37	Exp: 463	FR: 15.000000	 Capture Time: 0.630000
+SS:        469	X:    0.000	BR:  119	ISO:  100	Shots:    58
+When: 201207_15:02:42	Exp: 463	FR: 15.000000	 Capture Time: 0.670000
+SS:        473	X:    0.000	BR:  119	ISO:  100	Shots:    59
+When: 201207_15:02:47	Exp: 463	FR: 15.000000	 Capture Time: 0.640000
+SS:        480	X:    0.000	BR:  115	ISO:  100	Shots:    60
+When: 201207_15:02:52	Exp: 463	FR: 15.000000	 Capture Time: 0.650000
+SS:        489	X:    0.000	BR:  111	ISO:  100	Shots:    61
+When: 201207_15:02:57	Exp: 482	FR: 15.000000	 Capture Time: 0.630000
+SS:        492	X:    0.000	BR:  121	ISO:  100	Shots:    62
+When: 201207_15:03:02	Exp: 482	FR: 15.000000	 Capture Time: 0.650000
+SS:        496	X:    0.000	BR:  119	ISO:  100	Shots:    63
+When: 201207_15:03:07	Exp: 482	FR: 15.000000	 Capture Time: 0.640000
+SS:        501	X:    0.000	BR:  119	ISO:  100	Shots:    64
+When: 201207_15:03:12	Exp: 501	FR: 15.000000	 Capture Time: 0.660000
+SS:        504	X:    0.000	BR:  121	ISO:  100	Shots:    65
+When: 201207_15:03:17	Exp: 501	FR: 15.000000	 Capture Time: 0.690000
+SS:        507	X:    0.000	BR:  121	ISO:  100	Shots:    66
+When: 201207_15:03:22	Exp: 501	FR: 15.000000	 Capture Time: 0.610000
+SS:        510	X:    0.000	BR:  122	ISO:  100	Shots:    67
+When: 201207_15:03:27	Exp: 501	FR: 15.000000	 Capture Time: 0.670000
+SS:        513	X:    0.000	BR:  122	ISO:  100	Shots:    68
+When: 201207_15:03:32	Exp: 501	FR: 15.000000	 Capture Time: 0.610000
+SS:        516	X:    0.000	BR:  122	ISO:  100	Shots:    69
+When: 201207_15:03:37	Exp: 501	FR: 15.000000	 Capture Time: 0.690000
+SS:        519	X:    0.000	BR:  122	ISO:  100	Shots:    70
+When: 201207_15:03:42	Exp: 501	FR: 15.000000	 Capture Time: 0.690000
+SS:        522	X:    0.000	BR:  122	ISO:  100	Shots:    71
+When: 201207_15:03:47	Exp: 520	FR: 15.000000	 Capture Time: 0.680000
+SS:        524	X:    0.000	BR:  124	ISO:  100	Shots:    72
+When: 201207_15:03:52	Exp: 520	FR: 15.000000	 Capture Time: 0.690000
+SS:        526	X:    0.000	BR:  124	ISO:  100	Shots:    73
+When: 201207_15:03:57	Exp: 520	FR: 15.000000	 Capture Time: 0.670000
+Finding initial SS....
+WB:  (Fraction(485, 256), Fraction(397, 256))
+When: 201207_15:05:21	Exp: 614	FR: 15.000000	 Capture Time: 0.400000
+ss:        582	x:  0.0005 br:  131	
 Set up timelapser with: 
 	maxtime :	-1
 	maxshots:	-1
 	interval:	1800
 	Brightns:	128
 	Size  :	3280 x 2460
-Exp: 204059	FR: 4.800000	 Capture Time: 1.220000
-SS:     208572	X:    0.210	BR:  127	ISO:  100	Shots:     1
-Exp: 208539	FR: 4.790000	 Capture Time: 1.160000
-SS:     250266	X:    0.250	BR:    0	ISO:  100	Shots:     1
-Exp: 208539	FR: 4.000000	 Capture Time: 1.150000
-SS:     300299	X:    0.300	BR:    0	ISO:  100	Shots:     1
-Exp: 250393	FR: 3.330000	 Capture Time: 1.220000
-SS:     360338	X:    0.360	BR:    0	ISO:  100	Shots:     1
-Exp: 300375	FR: 2.780000	 Capture Time: 1.330000
-SS:     432385	X:    0.430	BR:    0	ISO:  100	Shots:     1
-Exp: 360471	FR: 2.310000	 Capture Time: 1.460000
-SS:     518842	X:    0.520	BR:    0	ISO:  100	Shots:     1
-Exp: 432344	FR: 1.930000	 Capture Time: 1.600000
-SS:     622590	X:    0.620	BR:    0	ISO:  100	Shots:     1
-Exp: 519189	FR: 1.610000	 Capture Time: 1.760000
-SS:     747088	X:    0.750	BR:    0	ISO:  100	Shots:     1
-Exp: 622802	FR: 1.340000	 Capture Time: 1.960000
-SS:     896485	X:    0.900	BR:    0	ISO:  100	Shots:     1
-Exp: 748457	FR: 1.120000	 Capture Time: 2.220000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 898176	FR: 1.000000	 Capture Time: 2.510000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.710000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.720000
-SS:     999000	X:    1.000	BR:    0	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 2.760000
-SS:     999000	X:    1.000	BR:   17	ISO:  100	Shots:     1
-Exp: 998991	FR: 1.000000	 Capture Time: 3.010000
-SS:     800780	X:    0.800	BR:  255	ISO:  100	Shots:     1
-Exp: 800764	FR: 1.250000	 Capture Time: 2.610000
-SS:     641895	X:    0.640	BR:  255	ISO:  100	Shots:     1
-Exp: 641895	FR: 1.560000	 Capture Time: 2.270000
-SS:     514538	X:    0.520	BR:  255	ISO:  100	Shots:     1
-Exp: 514538	FR: 1.940000	 Capture Time: 2.010000
-SS:     412550	X:    0.410	BR:  254	ISO:  100	Shots:     1
-Exp: 412532	FR: 2.420000	 Capture Time: 1.810000
-SS:     330975	X:    0.330	BR:  254	ISO:  100	Shots:     1
-Exp: 330962	FR: 3.020000	 Capture Time: 1.650000
-SS:     266061	X:    0.270	BR:  253	ISO:  100	Shots:     1
-Exp: 266026	FR: 3.760000	 Capture Time: 1.510000
-SS:     213496	X:    0.210	BR:  254	ISO:  100	Shots:     1
-Exp: 213417	FR: 4.680000	 Capture Time: 1.410000
-SS:     171166	X:    0.170	BR:  254	ISO:  100	Shots:     1
-Exp: 171147	FR: 5.840000	 Capture Time: 1.330000
-SS:     137225	X:    0.140	BR:  254	ISO:  100	Shots:     1
-Exp: 137177	FR: 7.290000	 Capture Time: 1.260000
-SS:     110014	X:    0.110	BR:  255	ISO:  100	Shots:     1
-Exp: 109974	FR: 9.090000	 Capture Time: 1.210000
-SS:      88202	X:    0.090	BR:  255	ISO:  100	Shots:     1
-Exp: 88121	FR: 11.340000	 Capture Time: 1.170000
-SS:      70719	X:    0.070	BR:  255	ISO:  100	Shots:     1
-Exp: 70635	FR: 14.140000	 Capture Time: 1.160000
-SS:      56705	X:    0.060	BR:  255	ISO:  100	Shots:     1
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 501	FR: 15.000000	 Capture Time: 0.340000
-ss:        438	x:  0.0004 br:  137	
-Exp: 425	FR: 15.000000	 Capture Time: 0.340000
-ss:        432	x:  0.0003 br:  129	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 425	FR: 15.000000	 Capture Time: 0.680000
-SS:        430	X:    0.000	BR:  130	ISO:  100	Shots:     1
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 406	FR: 15.000000	 Capture Time: 0.340000
-ss:        365	x:  0.0003 br:  136	
-Exp: 350	FR: 15.000000	 Capture Time: 0.400000
-ss:        362	x:  0.0003 br:  128	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 350	FR: 15.000000	 Capture Time: 0.690000
-SS:        361	X:    0.000	BR:  130	ISO:  100	Shots:     1
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 350	FR: 15.000000	 Capture Time: 0.360000
-ss:        100	x:  0.0003 br:  198	
-Exp: 85	FR: 15.000000	 Capture Time: 0.360000
-ss:        100	x:  0.0000 br:   97	
-Exp: 85	FR: 15.000000	 Capture Time: 0.360000
-ss:        100	x:  0.0000 br:   97	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 85	FR: 15.000000	 Capture Time: 0.600000
-SS:        100	X:    0.000	BR:   98	ISO:  100	Shots:     1
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 236	FR: 15.000000	 Capture Time: 0.350000
-ss:        227	x:  0.0001 br:  131	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 217	FR: 15.000000	 Capture Time: 0.600000
-SS:        227	X:    0.000	BR:  127	ISO:  100	Shots:     1
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 1030	FR: 15.000000	 Capture Time: 0.380000
-ss:       1157	x:  0.0009 br:  119	
-Exp: 1144	FR: 15.000000	 Capture Time: 0.370000
-ss:       1224	x:  0.0011 br:  123	
-Exp: 1219	FR: 15.000000	 Capture Time: 0.370000
-ss:       1229	x:  0.0011 br:  127	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	10
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 1219	FR: 15.000000	 Capture Time: 0.720000
-SS:       1225	X:    0.000	BR:  130	ISO:  100	Shots:     1
-Exp: 1219	FR: 15.000000	 Capture Time: 0.720000
-SS:       1221	X:    0.000	BR:  129	ISO:  100	Shots:     2
-Exp: 1219	FR: 15.000000	 Capture Time: 0.690000
-SS:       1200	X:    0.000	BR:  139	ISO:  100	Shots:     3
-Exp: 1200	FR: 15.000000	 Capture Time: 0.670000
-SS:       1194	X:    0.000	BR:  131	ISO:  100	Shots:     4
-Exp: 1181	FR: 15.000000	 Capture Time: 0.690000
-SS:       1182	X:    0.000	BR:  134	ISO:  100	Shots:     5
-Exp: 1181	FR: 15.000000	 Capture Time: 0.700000
-SS:       1161	X:    0.000	BR:  140	ISO:  100	Shots:     6
-Exp: 1144	FR: 15.000000	 Capture Time: 0.670000
-SS:       1177	X:    0.000	BR:  118	ISO:  100	Shots:     7
-Exp: 1163	FR: 15.000000	 Capture Time: 0.730000
-SS:       1193	X:    0.000	BR:  118	ISO:  100	Shots:     8
-Exp: 1181	FR: 15.000000	 Capture Time: 0.650000
-SS:       1151	X:    0.000	BR:  152	ISO:  100	Shots:     9
-Exp: 1144	FR: 15.000000	 Capture Time: 0.690000
-SS:       1164	X:    0.000	BR:  119	ISO:  100	Shots:    10
-Exp: 1163	FR: 15.000000	 Capture Time: 0.680000
-SS:       1166	X:    0.000	BR:  126	ISO:  100	Shots:    11
-Exp: 1163	FR: 15.000000	 Capture Time: 0.770000
-SS:       1060	X:    0.000	BR:  191	ISO:  100	Shots:    12
-Exp: 1049	FR: 15.000000	 Capture Time: 0.660000
-SS:       1098	X:    0.000	BR:  102	ISO:  100	Shots:    13
-Exp: 1087	FR: 15.000000	 Capture Time: 0.630000
-SS:       1134	X:    0.000	BR:  104	ISO:  100	Shots:    14
-Exp: 1125	FR: 15.000000	 Capture Time: 0.660000
-SS:       1217	X:    0.000	BR:   76	ISO:  100	Shots:    15
-Exp: 1200	FR: 15.000000	 Capture Time: 0.660000
-SS:       1240	X:    0.000	BR:  114	ISO:  100	Shots:    16
-Exp: 1238	FR: 15.000000	 Capture Time: 0.690000
-SS:       1182	X:    0.000	BR:  160	ISO:  100	Shots:    17
-Exp: 1181	FR: 15.000000	 Capture Time: 0.680000
-SS:       1208	X:    0.000	BR:  112	ISO:  100	Shots:    18
-Exp: 1200	FR: 15.000000	 Capture Time: 0.730000
-SS:       1223	X:    0.000	BR:  118	ISO:  100	Shots:    19
-Exp: 1219	FR: 15.000000	 Capture Time: 0.690000
-SS:       1234	X:    0.000	BR:  121	ISO:  100	Shots:    20
-Exp: 1219	FR: 15.000000	 Capture Time: 0.690000
-SS:       1250	X:    0.000	BR:  118	ISO:  100	Shots:    21
-Exp: 1238	FR: 15.000000	 Capture Time: 0.640000
-SS:       1296	X:    0.000	BR:  101	ISO:  100	Shots:    22
-Exp: 1295	FR: 15.000000	 Capture Time: 0.860000
-SS:       1090	X:    0.000	BR:  237	ISO:  100	Shots:    22
-Exp: 1087	FR: 15.000000	 Capture Time: 0.670000
-SS:       1149	X:    0.000	BR:   89	ISO:  100	Shots:    23
-Exp: 1144	FR: 15.000000	 Capture Time: 0.640000
-SS:       1167	X:    0.000	BR:  116	ISO:  100	Shots:    24
-Exp: 1163	FR: 15.000000	 Capture Time: 0.650000
-SS:       1194	X:    0.000	BR:  111	ISO:  100	Shots:    25
-Exp: 1181	FR: 15.000000	 Capture Time: 0.650000
-SS:       1207	X:    0.000	BR:  119	ISO:  100	Shots:    26
-Exp: 1200	FR: 15.000000	 Capture Time: 0.750000
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 747	FR: 15.000000	 Capture Time: 0.380000
-ss:        734	x:  0.0006 br:  129	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 728	FR: 15.000000	 Capture Time: 0.680000
-SS:        732	X:    0.000	BR:  129	ISO:  100	Shots:     1
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 784	FR: 15.000000	 Capture Time: 0.370000
-ss:        863	x:  0.0007 br:  120	
-Exp: 860	FR: 15.000000	 Capture Time: 0.400000
-ss:        883	x:  0.0008 br:  126	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 879	FR: 15.000000	 Capture Time: 0.730000
-SS:        881	X:    0.000	BR:  129	ISO:  100	Shots:     1
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 1125	FR: 15.000000	 Capture Time: 0.400000
-ss:       1303	x:  0.0010 br:  116	
-Exp: 1295	FR: 15.000000	 Capture Time: 0.410000
-ss:       1366	x:  0.0012 br:  124	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 1352	FR: 15.000000	 Capture Time: 0.680000
-SS:       1364	X:    0.000	BR:  128	ISO:  100	Shots:     1
-Exp: 1352	FR: 15.000000	 Capture Time: 0.640000
-SS:       1466	X:    0.000	BR:   76	ISO:  100	Shots:     2
-Exp: 1465	FR: 15.000000	 Capture Time: 0.610000
-SS:       1654	X:    0.000	BR:   39	ISO:  100	Shots:     2
-Exp: 1654	FR: 15.000000	 Capture Time: 0.620000
-SS:       1964	X:    0.000	BR:    0	ISO:  100	Shots:     2
-Exp: 1957	FR: 15.000000	 Capture Time: 0.620000
-SS:       2336	X:    0.000	BR:    0	ISO:  100	Shots:     2
-Exp: 2335	FR: 15.000000	 Capture Time: 0.610000
-SS:       2783	X:    0.000	BR:    0	ISO:  100	Shots:     2
-Exp: 2769	FR: 15.000000	 Capture Time: 0.620000
-SS:       3319	X:    0.000	BR:    0	ISO:  100	Shots:     2
-Exp: 3318	FR: 15.000000	 Capture Time: 0.610000
-SS:       3962	X:    0.000	BR:    0	ISO:  100	Shots:     2
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 274	FR: 15.000000	 Capture Time: 0.350000
-ss:        267	x:  0.0002 br:  130	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 255	FR: 15.000000	 Capture Time: 0.620000
-SS:        267	X:    0.000	BR:  127	ISO:  100	Shots:     1
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 482	FR: 15.000000	 Capture Time: 0.350000
-ss:        402	x:  0.0004 br:  141	
-Exp: 387	FR: 15.000000	 Capture Time: 0.350000
-ss:        407	x:  0.0003 br:  126	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 406	FR: 15.000000	 Capture Time: 0.660000
-SS:        405	X:    0.000	BR:  131	ISO:  100	Shots:     1
-Exp: 387	FR: 15.000000	 Capture Time: 0.670000
-SS:        405	X:    0.000	BR:  127	ISO:  100	Shots:     2
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 482	FR: 15.000000	 Capture Time: 0.350000
-ss:        422	x:  0.0004 br:  137	
-Exp: 406	FR: 15.000000	 Capture Time: 0.350000
-ss:        429	x:  0.0003 br:  126	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	1800
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 425	FR: 15.000000	 Capture Time: 0.660000
-SS:        427	X:    0.000	BR:  131	ISO:  100	Shots:     1
-Exp: 425	FR: 15.000000	 Capture Time: 0.660000
-SS:        426	X:    0.000	BR:  128	ISO:  100	Shots:     2
-Finding initial SS....
-WB:  (Fraction(485, 256), Fraction(397, 256))
-Exp: 520	FR: 15.000000	 Capture Time: 0.370000
-ss:        462	x:  0.0004 br:  136	
-Exp: 444	FR: 15.000000	 Capture Time: 0.360000
-ss:        472	x:  0.0004 br:  126	
-Set up timelapser with: 
-	maxtime :	-1
-	maxshots:	-1
-	interval:	10
-	Brightns:	128
-	Size  :	3280 x 2460
-Exp: 463	FR: 15.000000	 Capture Time: 0.620000
-SS:        470	X:    0.000	BR:  130	ISO:  100	Shots:     1
-Exp: 463	FR: 15.000000	 Capture Time: 0.660000
-SS:        467	X:    0.000	BR:  132	ISO:  100	Shots:     2
-Exp: 463	FR: 15.000000	 Capture Time: 0.640000
-SS:        464	X:    0.000	BR:  132	ISO:  100	Shots:     3
-Exp: 463	FR: 15.000000	 Capture Time: 0.640000
-SS:        461	X:    0.000	BR:  133	ISO:  100	Shots:     4
-Exp: 444	FR: 15.000000	 Capture Time: 0.640000
-SS:        464	X:    0.000	BR:  120	ISO:  100	Shots:     5
-Exp: 463	FR: 15.000000	 Capture Time: 0.620000
-SS:        465	X:    0.000	BR:  124	ISO:  100	Shots:     6
-Exp: 463	FR: 15.000000	 Capture Time: 0.680000
-SS:        473	X:    0.000	BR:  113	ISO:  100	Shots:     7
-Exp: 463	FR: 15.000000	 Capture Time: 0.610000
-SS:        529	X:    0.000	BR:   31	ISO:  100	Shots:     7
-Exp: 520	FR: 15.000000	 Capture Time: 0.650000
-SS:        526	X:    0.000	BR:  131	ISO:  100	Shots:     8
-Exp: 520	FR: 15.000000	 Capture Time: 0.590000
-SS:        526	X:    0.000	BR:  126	ISO:  100	Shots:     9
-Exp: 520	FR: 15.000000	 Capture Time: 0.660000
-SS:        530	X:    0.000	BR:  120	ISO:  100	Shots:    10
-Exp: 520	FR: 15.000000	 Capture Time: 0.550000
-SS:        592	X:    0.000	BR:   34	ISO:  100	Shots:    10
-Exp: 577	FR: 15.000000	 Capture Time: 0.620000
-SS:        642	X:    0.000	BR:   62	ISO:  100	Shots:    11
-Exp: 633	FR: 15.000000	 Capture Time: 0.660000
-SS:        627	X:    0.000	BR:  145	ISO:  100	Shots:    12
-Exp: 614	FR: 15.000000	 Capture Time: 0.550000
-SS:        614	X:    0.000	BR:  143	ISO:  100	Shots:    13
-Exp: 614	FR: 15.000000	 Capture Time: 0.620000
-SS:        696	X:    0.000	BR:   25	ISO:  100	Shots:    13
-Exp: 690	FR: 15.000000	 Capture Time: 0.660000
-SS:        679	X:    0.000	BR:  145	ISO:  100	Shots:    14
-Exp: 671	FR: 15.000000	 Capture Time: 0.570000
-SS:        657	X:    0.000	BR:  151	ISO:  100	Shots:    15
-Exp: 652	FR: 15.000000	 Capture Time: 0.630000
-SS:        637	X:    0.000	BR:  150	ISO:  100	Shots:    16
-Exp: 633	FR: 15.000000	 Capture Time: 0.660000
-SS:        623	X:    0.000	BR:  143	ISO:  100	Shots:    17
-Exp: 614	FR: 15.000000	 Capture Time: 0.670000
-SS:        611	X:    0.000	BR:  141	ISO:  100	Shots:    18
-Exp: 595	FR: 15.000000	 Capture Time: 0.660000
-SS:        597	X:    0.000	BR:  144	ISO:  100	Shots:    19
-Exp: 595	FR: 15.000000	 Capture Time: 0.670000
-SS:        588	X:    0.000	BR:  138	ISO:  100	Shots:    20
-Exp: 577	FR: 15.000000	 Capture Time: 0.630000
-SS:        566	X:    0.000	BR:  156	ISO:  100	Shots:    21
-Exp: 558	FR: 15.000000	 Capture Time: 0.660000
-SS:        560	X:    0.000	BR:  135	ISO:  100	Shots:    22
-Exp: 558	FR: 15.000000	 Capture Time: 0.670000
-SS:        554	X:    0.000	BR:  135	ISO:  100	Shots:    23
-Exp: 539	FR: 15.000000	 Capture Time: 0.660000
-SS:        550	X:    0.000	BR:  133	ISO:  100	Shots:    24
-Exp: 539	FR: 15.000000	 Capture Time: 0.660000
-SS:        549	X:    0.000	BR:  129	ISO:  100	Shots:    25
-Exp: 539	FR: 15.000000	 Capture Time: 0.640000
-SS:        545	X:    0.000	BR:  132	ISO:  100	Shots:    26
-Exp: 539	FR: 15.000000	 Capture Time: 0.650000
-SS:        538	X:    0.000	BR:  137	ISO:  100	Shots:    27
-Exp: 520	FR: 15.000000	 Capture Time: 0.660000
-SS:        535	X:    0.000	BR:  131	ISO:  100	Shots:    28
-Exp: 520	FR: 15.000000	 Capture Time: 0.660000
-SS:        527	X:    0.000	BR:  139	ISO:  100	Shots:    29
-Exp: 520	FR: 15.000000	 Capture Time: 0.660000
-SS:        521	X:    0.000	BR:  136	ISO:  100	Shots:    30
-Exp: 520	FR: 15.000000	 Capture Time: 0.660000
-SS:        517	X:    0.000	BR:  133	ISO:  100	Shots:    31
-Exp: 501	FR: 15.000000	 Capture Time: 0.620000
-SS:        542	X:    0.000	BR:   89	ISO:  100	Shots:    32
-Exp: 539	FR: 15.000000	 Capture Time: 0.640000
-SS:        535	X:    0.000	BR:  136	ISO:  100	Shots:    33
-Exp: 520	FR: 15.000000	 Capture Time: 0.620000
-SS:        562	X:    0.000	BR:   87	ISO:  100	Shots:    34
-Exp: 558	FR: 15.000000	 Capture Time: 0.620000
-SS:        553	X:    0.000	BR:  139	ISO:  100	Shots:    35
-Exp: 539	FR: 15.000000	 Capture Time: 0.620000
-SS:        583	X:    0.000	BR:   85	ISO:  100	Shots:    36
-Exp: 577	FR: 15.000000	 Capture Time: 0.650000
-SS:        576	X:    0.000	BR:  136	ISO:  100	Shots:    37
-Exp: 558	FR: 15.000000	 Capture Time: 0.640000
-SS:        568	X:    0.000	BR:  137	ISO:  100	Shots:    38
-Exp: 558	FR: 15.000000	 Capture Time: 0.640000
-SS:        562	X:    0.000	BR:  135	ISO:  100	Shots:    39
-Exp: 558	FR: 15.000000	 Capture Time: 0.660000
-SS:        588	X:    0.000	BR:   90	ISO:  100	Shots:    40
-Exp: 577	FR: 15.000000	 Capture Time: 0.620000
-SS:        573	X:    0.000	BR:  147	ISO:  100	Shots:    41
-Exp: 558	FR: 15.000000	 Capture Time: 0.640000
-SS:        569	X:    0.000	BR:  132	ISO:  100	Shots:    42
-Exp: 558	FR: 15.000000	 Capture Time: 0.600000
-SS:        562	X:    0.000	BR:  136	ISO:  100	Shots:    43
-Exp: 558	FR: 15.000000	 Capture Time: 0.660000
-SS:        581	X:    0.000	BR:  101	ISO:  100	Shots:    44
-Exp: 577	FR: 15.000000	 Capture Time: 0.620000
-SS:        561	X:    0.000	BR:  153	ISO:  100	Shots:    45
-Exp: 558	FR: 15.000000	 Capture Time: 0.620000
-SS:        611	X:    0.000	BR:   57	ISO:  100	Shots:    45
-Exp: 595	FR: 15.000000	 Capture Time: 0.610000
-SS:        663	X:    0.000	BR:   62	ISO:  100	Shots:    46
-Exp: 652	FR: 15.000000	 Capture Time: 0.640000
-SS:        736	X:    0.000	BR:   44	ISO:  100	Shots:    46
-Exp: 728	FR: 15.000000	 Capture Time: 0.660000
-SS:        715	X:    0.000	BR:  148	ISO:  100	Shots:    47
-Exp: 709	FR: 15.000000	 Capture Time: 0.670000
-SS:        702	X:    0.000	BR:  141	ISO:  100	Shots:    48
-Exp: 690	FR: 15.000000	 Capture Time: 0.620000
-SS:        690	X:    0.000	BR:  140	ISO:  100	Shots:    49
-Exp: 690	FR: 15.000000	 Capture Time: 0.600000
-SS:        701	X:    0.000	BR:  115	ISO:  100	Shots:    50
-Exp: 690	FR: 15.000000	 Capture Time: 0.640000
-SS:        675	X:    0.000	BR:  154	ISO:  100	Shots:    51
-Exp: 671	FR: 15.000000	 Capture Time: 0.660000
-SS:        661	X:    0.000	BR:  142	ISO:  100	Shots:    52
-Exp: 652	FR: 15.000000	 Capture Time: 0.660000
-SS:        651	X:    0.000	BR:  139	ISO:  100	Shots:    53
-Exp: 633	FR: 15.000000	 Capture Time: 0.660000
-SS:        643	X:    0.000	BR:  136	ISO:  100	Shots:    54
-Exp: 633	FR: 15.000000	 Capture Time: 0.610000
-SS:        663	X:    0.000	BR:  103	ISO:  100	Shots:    55
-Exp: 652	FR: 15.000000	 Capture Time: 0.670000
-SS:        659	X:    0.000	BR:  131	ISO:  100	Shots:    56
-Exp: 652	FR: 15.000000	 Capture Time: 0.640000
-SS:        634	X:    0.000	BR:  155	ISO:  100	Shots:    57
-Exp: 633	FR: 15.000000	 Capture Time: 0.670000
-SS:        617	X:    0.000	BR:  147	ISO:  100	Shots:    58
-Exp: 614	FR: 15.000000	 Capture Time: 0.690000
-SS:        597	X:    0.000	BR:  152	ISO:  100	Shots:    59
-Exp: 595	FR: 15.000000	 Capture Time: 0.690000
-SS:        577	X:    0.000	BR:  152	ISO:  100	Shots:    60
-Exp: 577	FR: 15.000000	 Capture Time: 0.680000
-SS:        562	X:    0.000	BR:  148	ISO:  100	Shots:    61
-Exp: 558	FR: 15.000000	 Capture Time: 0.690000
-SS:        548	X:    0.000	BR:  146	ISO:  100	Shots:    62
-Traceback (most recent call last):
-  File "/home/pi/AWS/Scripts/timelapse.py", line 441, in <module>
-    main(sys.argv[1:])
-  File "/home/pi/AWS/Scripts/timelapse.py", line 431, in main
-    TL.run_timelapse()
-  File "/home/pi/AWS/Scripts/timelapse.py", line 341, in run_timelapse
-    self.shoot(filename=filename)
-  File "/home/pi/AWS/Scripts/timelapse.py", line 282, in shoot
-    im = self.capture(config, state)
-  File "/home/pi/AWS/Scripts/timelapse.py", line 219, in capture
-    self.camera.ISO = config.iso
-  File "/usr/lib/python2.7/dist-packages/picamera/camera.py", line 2760, in _set_ISO
-    self.iso = value
-  File "/usr/lib/python2.7/dist-packages/picamera/camera.py", line 2772, in _set_iso
-    self._check_camera_open()
-  File "/usr/lib/python2.7/dist-packages/picamera/camera.py", line 538, in _check_camera_open
-    raise exc
-picamera.exc.PiCameraRuntimeError: No data recevied from sensor. Check all connections, including the SUNNY chip on the camera board
-Finding initial SS....
-Traceback (most recent call last):
-  File "/home/pi/AWS/Scripts/timelapse.py", line 441, in <module>
-    main(sys.argv[1:])
-  File "/home/pi/AWS/Scripts/timelapse.py", line 434, in main
-    camera.close()
-  File "/usr/lib/python2.7/dist-packages/picamera/camera.py", line 752, in close
-    raise exc
-picamera.exc.PiCameraRuntimeError: No data recevied from sensor. Check all connections, including the SUNNY chip on the camera board
-Finding initial SS....
-Traceback (most recent call last):
-  File "/home/pi/AWS/Scripts/timelapse.py", line 441, in <module>
-    main(sys.argv[1:])
-  File "/home/pi/AWS/Scripts/timelapse.py", line 434, in main
-    camera.close()
-  File "/usr/lib/python2.7/dist-packages/picamera/camera.py", line 752, in close
-    raise exc
-picamera.exc.PiCameraRuntimeError: No data recevied from sensor. Check all connections, including the SUNNY chip on the camera board
-Finding initial SS....
-Traceback (most recent call last):
-  File "/home/pi/AWS/Scripts/timelapse.py", line 441, in <module>
-    main(sys.argv[1:])
-  File "/home/pi/AWS/Scripts/timelapse.py", line 434, in main
-    camera.close()
-  File "/usr/lib/python2.7/dist-packages/picamera/camera.py", line 752, in close
-    raise exc
-picamera.exc.PiCameraRuntimeError: No data recevied from sensor. Check all connections, including the SUNNY chip on the camera board
-Finding initial SS....
+When: 201207_15:05:22	Exp: 577	FR: 15.000000	 Capture Time: 0.660000
+SS:        580	X:    0.000	BR:  129	ISO:  100	Shots:     1
+When: 201207_15:35:22	Exp: 577	FR: 15.000000	 Capture Time: 0.670000
+SS:        616	X:    0.000	BR:   78	ISO:  100	Shots:     2
+When: 201207_16:05:22	Exp: 614	FR: 15.000000	 Capture Time: 0.670000
+SS:        649	X:    0.000	BR:   86	ISO:  100	Shots:     3
+When: 201207_16:35:22	Exp: 633	FR: 15.000000	 Capture Time: 0.590000
+SS:        739	X:    0.000	BR:   22	ISO:  100	Shots:     3
+When: 201207_17:05:22	Exp: 728	FR: 15.000000	 Capture Time: 0.610000
+SS:        866	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_17:35:22	Exp: 860	FR: 15.000000	 Capture Time: 0.620000
+SS:       1019	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_18:05:22	Exp: 1011	FR: 15.000000	 Capture Time: 0.610000
+SS:       1202	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_18:35:22	Exp: 1200	FR: 15.000000	 Capture Time: 0.580000
+SS:       1422	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_19:05:22	Exp: 1408	FR: 15.000000	 Capture Time: 0.610000
+SS:       1686	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_19:35:22	Exp: 1673	FR: 15.000000	 Capture Time: 0.620000
+SS:       2003	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_20:05:22	Exp: 1994	FR: 15.000000	 Capture Time: 0.610000
+SS:       2383	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_20:35:23	Exp: 2372	FR: 15.000000	 Capture Time: 0.610000
+SS:       2839	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_21:05:23	Exp: 2826	FR: 15.000000	 Capture Time: 0.610000
+SS:       3386	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_21:35:23	Exp: 3374	FR: 15.000000	 Capture Time: 0.610000
+SS:       4043	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_22:05:23	Exp: 4036	FR: 15.000000	 Capture Time: 0.620000
+SS:       4831	X:    0.000	BR:    0	ISO:  100	Shots:     3
+When: 201207_22:35:23	Exp: 4830	FR: 15.000000	 Capture Time: 0.620000
+SS:       5777	X:    0.010	BR:    0	ISO:  100	Shots:     3
+When: 201207_23:05:23	Exp: 5775	FR: 15.000000	 Capture Time: 0.610000
+SS:       6912	X:    0.010	BR:    0	ISO:  100	Shots:     3
+When: 201207_23:35:23	Exp: 6909	FR: 15.000000	 Capture Time: 0.620000
+SS:       8274	X:    0.010	BR:    0	ISO:  100	Shots:     3
+When: 201208_00:05:23	Exp: 8270	FR: 15.000000	 Capture Time: 0.620000
+SS:       9908	X:    0.010	BR:    0	ISO:  100	Shots:     3
+When: 201208_00:35:23	Exp: 9896	FR: 15.000000	 Capture Time: 0.570000
+SS:      11869	X:    0.010	BR:    0	ISO:  100	Shots:     3
+When: 201208_01:05:23	Exp: 11862	FR: 15.000000	 Capture Time: 0.630000
+SS:      14222	X:    0.010	BR:    0	ISO:  100	Shots:     3
+When: 201208_01:35:23	Exp: 14206	FR: 15.000000	 Capture Time: 0.630000
+SS:      17046	X:    0.020	BR:    0	ISO:  100	Shots:     3
+When: 201208_02:05:24	Exp: 17042	FR: 15.000000	 Capture Time: 0.640000
+SS:      20435	X:    0.020	BR:    0	ISO:  100	Shots:     3
+When: 201208_02:35:24	Exp: 20426	FR: 15.000000	 Capture Time: 0.620000
+SS:      24502	X:    0.020	BR:    0	ISO:  100	Shots:     3
+When: 201208_03:05:24	Exp: 24490	FR: 15.000000	 Capture Time: 0.610000
+SS:      29382	X:    0.030	BR:    0	ISO:  100	Shots:     3
+When: 201208_03:35:24	Exp: 29367	FR: 15.000000	 Capture Time: 0.610000
+SS:      35238	X:    0.040	BR:    0	ISO:  100	Shots:     3
+When: 201208_04:05:24	Exp: 35228	FR: 15.000000	 Capture Time: 0.610000
+SS:      42265	X:    0.040	BR:    0	ISO:  100	Shots:     3
+When: 201208_04:35:24	Exp: 42260	FR: 15.000000	 Capture Time: 0.650000
+SS:      50697	X:    0.050	BR:    0	ISO:  100	Shots:     3
+When: 201208_05:05:24	Exp: 50691	FR: 15.000000	 Capture Time: 0.660000
+SS:      60816	X:    0.060	BR:    0	ISO:  100	Shots:     3
+When: 201208_05:35:24	Exp: 60805	FR: 15.000000	 Capture Time: 0.660000
+SS:      72959	X:    0.070	BR:    0	ISO:  100	Shots:     3
+When: 201208_06:05:24	Exp: 66570	FR: 13.710000	 Capture Time: 0.660000
+SS:      87530	X:    0.090	BR:    0	ISO:  100	Shots:     3
+When: 201208_06:35:24	Exp: 72884	FR: 11.420000	 Capture Time: 0.670000
+SS:     105016	X:    0.110	BR:    0	ISO:  100	Shots:     3
+When: 201208_07:05:24	Exp: 87459	FR: 9.520000	 Capture Time: 0.770000
+SS:     109032	X:    0.110	BR:  103	ISO:  100	Shots:     4
+When: 201208_07:35:25	Exp: 104946	FR: 9.170000	 Capture Time: 1.010000
+SS:      87487	X:    0.090	BR:  254	ISO:  100	Shots:     4
+When: 201208_08:05:25	Exp: 87403	FR: 11.430000	 Capture Time: 0.970000
+SS:      70146	X:    0.070	BR:  255	ISO:  100	Shots:     4
+When: 201208_08:35:25	Exp: 70068	FR: 14.260000	 Capture Time: 0.930000
+SS:      56246	X:    0.060	BR:  255	ISO:  100	Shots:     4
+When: 201208_09:05:25	Exp: 56230	FR: 15.000000	 Capture Time: 0.910000
+SS:      45104	X:    0.050	BR:  255	ISO:  100	Shots:     4
+When: 201208_09:35:25	Exp: 45095	FR: 15.000000	 Capture Time: 0.910000
+SS:      36173	X:    0.040	BR:  255	ISO:  100	Shots:     4
+When: 201208_10:05:25	Exp: 36173	FR: 15.000000	 Capture Time: 0.870000
+SS:      29014	X:    0.030	BR:  255	ISO:  100	Shots:     4
+When: 201208_10:35:25	Exp: 29008	FR: 15.000000	 Capture Time: 0.870000
+SS:      23276	X:    0.020	BR:  255	ISO:  100	Shots:     4
+When: 201208_11:05:25	Exp: 23261	FR: 15.000000	 Capture Time: 0.880000
+SS:      18677	X:    0.020	BR:  255	ISO:  100	Shots:     4
+When: 201208_11:35:25	Exp: 18668	FR: 15.000000	 Capture Time: 0.930000
+SS:      14990	X:    0.010	BR:  255	ISO:  100	Shots:     4
+When: 201208_12:05:25	Exp: 14981	FR: 15.000000	 Capture Time: 0.840000
+SS:      12035	X:    0.010	BR:  254	ISO:  100	Shots:     4

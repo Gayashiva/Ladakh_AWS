@@ -64,7 +64,7 @@ while counter < samples:
     )  # W/m2
 
     counter += 1
-    sleep(1)
+    sleep(0.5)
 
 dt = datetime.now()
 dt = dt.strftime("%Y-%m-%d %H:%M")

@@ -1,10 +1,15 @@
+#!/usr/bin/python3
 import os
 import glob
 import pandas as pd
 import re
 import datetime as dt
 
-os.chdir("/home/surya/AWS/pi-0/Data/")
+path = "/home/pi/AWS/Data/"
+# path = "/home/surya/AWS/pi-0/Data/"
+file_path = os.path.join(path[:-5], "kullum.csv")
+
+os.chdir(path)
 
 extension = "csv"
 all_filenames = [i for i in glob.glob("*.{}".format(extension))]
@@ -20,4 +25,4 @@ df = df.sort_index()
 df = df.drop(["Water_Level", "Temp", "Humidity"], axis=1)
 df = df.groupby(df.index).sum()
 df = df.round(2)
-df.to_csv("phaterak.csv", encoding="utf-8")
+df.to_csv(file_path)

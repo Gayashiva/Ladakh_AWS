@@ -26,9 +26,8 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 #*/30  *    * * *   root    /home/pi/AWS/Scripts/dsb.py >> /home/pi/AWS/Logs/sensors.log 2>&1
 #*/30  *    * * *   root    /home/pi/AWS/Scripts/adc.py >> /home/pi/AWS/Logs/sensors.log 2>&1
 #@reboot root sleep 60 && stdbuf -oL /home/pi/AWS/Scripts/timelapse.py -i 1800 -W 3280 -H 2460 -d 70 >> /home/pi/AWS/Logs/timelapse.log 2>&1
-#*/5  *    * * *   root    /home/pi/AWS/Scripts/kit.py >> /home/pi/AWS/Logs/sensors.log 2>&1
+#*/30  *    * * *   root    /home/pi/AWS/Scripts/kit.py >> /home/pi/AWS/Logs/sensors.log 2>&1
 #*/30  *    * * *   root    /home/pi/AWS/Scripts/pt.py >> /home/pi/AWS/Logs/sensors.log 2>&1
-#*/5  *    * * *   root    /home/pi/AWS/Scripts/sht.py >> /home/pi/AWS/Logs/sensors.log 2>&1
 #0  12    * * *   root    /home/pi/AWS/Scripts/outputs.py >> /home/pi/AWS/Logs/outputs.log 2>&1
 #0  12    * * *   root    /home/pi/AWS/Scripts/compile.py >> /home/pi/AWS/Logs/outputs.log 2>&1
 #

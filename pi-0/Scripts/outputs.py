@@ -10,8 +10,8 @@ f = open("/etc/hostname")
 hostname = f.read().strip().replace(" ", "")
 f.close()
 
-# path = "/home/pi/AWS/Data/"
-path = "/home/surya/AWS/pi-0/Data/"
+path = "/home/pi/AWS/Data/"
+# path = "/home/surya/AWS/pi-0/Data/"
 file_path = os.path.join(path[:-5], hostname + "_outputs.pdf")
 
 df_adc = pd.read_csv(path + "adc.csv", sep=",", header=0, parse_dates=["Datetime"])

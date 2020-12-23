@@ -45,7 +45,9 @@ if temp > 50:
     print(dt, "Ice sensor error")
     print("Temperature in Celsius is : %.2f C" % temp)
 
-file.write(str(dt) + "," + str(round(temp, 3)) + "\n")
+file.write(
+    str(dt) + "," + str(round(temp, 3)) + "\n"
+)
 file.flush()
 
 

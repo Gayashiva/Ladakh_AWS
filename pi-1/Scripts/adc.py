@@ -37,31 +37,31 @@ while counter < samples:
     ads1115.setGain(ADS1115_REG_CONFIG_PGA_2_048V)
 
     # Get the Digital Value of Analog of selected channel
-    adc0 = ads1115.readVoltage(0)
-    adc0 = float(adc0["r"] * 5 / 1024)
-    adc0 = (adc0 - 1.73828125) * 400 * 10  # hPa
+    #adc0 = ads1115.readVoltage(0)
+    #adc0 = float(adc0["r"] * 5 / 1024)
+    #adc0 = (adc0 - 1.73828125) * 400 * 10  # hPa
     # adc0 +=344.21 - 273.4375
-    Water_Pressure += adc0
+    #Water_Pressure += adc0
+    #sleep(0.2)
+
+    adc1 = ads1115.readVoltage(1)
+    adc1 = float((adc1['r']/120)-4)
+    adc1=float(adc1*312.5) #mm
+    adc1 += (285-257.812)
+    Water_level += adc1
     sleep(0.2)
 
-    # adc1 = ads1115.readVoltage(1)
-    # adc1 = float((adc1['r']/120)-4)
-    # adc1=float(adc1*312.5) #mm
-    # adc1 += (285-257.812)
-    # Water_level += adc1
-    # sleep(0.2)
+    #adc2 = ads1115.readVoltage(2)
+    #adc2 = float(adc2["r"] / 1024)
+    #IRTemp = IRTemp + float(adc2 / 3 * 450 - 70)
+    #sleep(0.2)
 
-    adc2 = ads1115.readVoltage(2)
-    adc2 = float(adc2["r"] / 1024)
-    IRTemp = IRTemp + float(adc2 / 3 * 450 - 70)
-    sleep(0.2)
-
-    adc3 = ads1115.readVoltage(3)
-    uvLevel += float(adc3["r"])
-    outputVoltage = 5.0 * float(adc3["r"]) / 1024
-    uvIntensity += (
-        mapfloat(outputVoltage, 0.99, 2.9, 0.0, 15.0) / 1000 * 100 * 100
-    )  # W/m2
+    #adc3 = ads1115.readVoltage(3)
+    #uvLevel += float(adc3["r"])
+    #outputVoltage = 5.0 * float(adc3["r"]) / 1024
+    #uvIntensity += (
+    #    mapfloat(outputVoltage, 0.99, 2.9, 0.0, 15.0) / 1000 * 100 * 100
+    #)  # W/m2
 
     counter += 1
     sleep(1)

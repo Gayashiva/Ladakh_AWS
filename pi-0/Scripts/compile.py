@@ -5,8 +5,8 @@ import pandas as pd
 import re
 import datetime as dt
 
-# path = "/home/pi/AWS/Data/"
-path = "/home/surya/AWS/pi-0/Data/"
+path = "/home/pi/AWS/Data/"
+# path = "/home/surya/AWS/pi-0/Data/"
 file_path = os.path.join(path[:-5], "phaterak.csv")
 
 os.chdir(path)

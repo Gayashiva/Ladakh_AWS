@@ -45,9 +45,9 @@ while counter < samples:
     sleep(0.2)
 
     # adc1 = ads1115.readVoltage(1)
-    # adc1 = float((adc1['r']/120)-4)
-    # adc1=float(adc1*312.5) #mm
-    # adc1 += (285-257.812)
+    # adc1 = float((adc1["r"] / 120) - 4)
+    # adc1 = float(adc1 * 312.5)  # mm
+    # adc1 += 285 - 257.812
     # Water_level += adc1
     # sleep(0.2)
 

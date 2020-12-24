@@ -1,0 +1,56 @@
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/adc.py", line 40, in <module>
+    adc0 = ads1115.readVoltage(0)
+  File "/home/pi/AWS/Scripts/modules/DFRobot_ADS1115.py", line 142, in readVoltage
+    self.setSingle()
+  File "/home/pi/AWS/Scripts/modules/DFRobot_ADS1115.py", line 110, in setSingle
+    bus.write_i2c_block_data(addr_G, ADS1115_REG_POINTER_CONFIG, CONFIG_REG)
+OSError: [Errno 121] Remote I/O error
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/dsb.py", line 31, in <module>
+    Db += round(x.tempC(0), 3)
+  File "/home/pi/AWS/Scripts/modules/ds18b20.py", line 51, in tempC
+    lines = self._read_temp(index)
+  File "/home/pi/AWS/Scripts/modules/ds18b20.py", line 43, in _read_temp
+    f = open(self._device_file[index],'r')
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/adc.py", line 40, in <module>
+    adc0 = ads1115.readVoltage(0)
+  File "/home/pi/AWS/Scripts/modules/DFRobot_ADS1115.py", line 142, in readVoltage
+    self.setSingle()
+  File "/home/pi/AWS/Scripts/modules/DFRobot_ADS1115.py", line 110, in setSingle
+    bus.write_i2c_block_data(addr_G, ADS1115_REG_POINTER_CONFIG, CONFIG_REG)
+OSError: [Errno 121] Remote I/O error
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/dsb.py", line 31, in <module>
+    Db += round(x.tempC(0), 3)
+  File "/home/pi/AWS/Scripts/modules/ds18b20.py", line 51, in tempC
+    lines = self._read_temp(index)
+  File "/home/pi/AWS/Scripts/modules/ds18b20.py", line 43, in _read_temp
+    f = open(self._device_file[index],'r')
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/dsb.py", line 31, in <module>
+    Db += round(x.tempC(0), 3)
+  File "/home/pi/AWS/Scripts/modules/ds18b20.py", line 51, in tempC
+    lines = self._read_temp(index)
+  File "/home/pi/AWS/Scripts/modules/ds18b20.py", line 43, in _read_temp
+    f = open(self._device_file[index],'r')
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/dsb.py", line 31, in <module>
+    Db += round(x.tempC(0), 3)
+  File "/home/pi/AWS/Scripts/modules/ds18b20.py", line 51, in tempC
+    lines = self._read_temp(index)
+  File "/home/pi/AWS/Scripts/modules/ds18b20.py", line 43, in _read_temp
+    f = open(self._device_file[index],'r')
+IndexError: list index out of range
+  File "/home/pi/AWS/Scripts/adc.py", line 47
+    adc1 = ads1115.readVoltage(1)
+    ^
+IndentationError: unexpected indent
+  File "/home/pi/AWS/Scripts/adc.py", line 46
+    adc1 = ads1115.readVoltage(1)
+    ^
+IndentationError: unexpected indent

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/adc.py", line 40, in <module>
+    adc0 = ads1115.readVoltage(0)
+  File "/home/pi/AWS/Scripts/modules/DFRobot_ADS1115.py", line 142, in readVoltage
+    self.setSingle()
+  File "/home/pi/AWS/Scripts/modules/DFRobot_ADS1115.py", line 110, in setSingle
+    bus.write_i2c_block_data(addr_G, ADS1115_REG_POINTER_CONFIG, CONFIG_REG)
+OSError: [Errno 121] Remote I/O error

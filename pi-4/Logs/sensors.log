@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/kit.py", line 73, in <module>
+    temp += temperature()
+  File "/home/pi/AWS/Scripts/kit.py", line 48, in temperature
+    t = (float(x[13:16]) - 32.00) * 5.00 / 9.00
+ValueError: could not convert string to float: b'...'
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/kit.py", line 70, in <module>
+    win_dir += win_direction()
+  File "/home/pi/AWS/Scripts/kit.py", line 34, in win_direction
+    return int(x[1:4])
+ValueError: invalid literal for int() with base 10: b''
+Traceback (most recent call last):
+  File "/home/pi/AWS/Scripts/kit.py", line 73, in <module>
+    temp += temperature()
+  File "/home/pi/AWS/Scripts/kit.py", line 48, in temperature
+    t = (float(x[13:16]) - 32.00) * 5.00 / 9.00
+ValueError: could not convert string to float: b'...'
